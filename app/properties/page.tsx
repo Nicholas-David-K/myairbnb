@@ -1,9 +1,8 @@
 import ClientOnly from '../components/ClientOnly';
 import EmptyState from '../components/EmptyState';
-
+import PropertiesClient from './PropertiesClient';
 import getCurrentUser from '../actions/getCurrentUser';
 import getListings from '../actions/getListings';
-import PropertiesClient from './PropertiesClient';
 
 type Props = {};
 

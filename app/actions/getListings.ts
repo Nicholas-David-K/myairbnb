@@ -11,9 +11,9 @@ export interface IListingsParams {
     category?: string;
     minPrice?: string;
     maxPrice?: string;
-    isEntirePlace: string;
-    isPrivateRoom: string;
-    isSharedRoom: string;
+    isEntirePlace?: string;
+    isPrivateRoom?: string;
+    isSharedRoom?: string;
 }
 
 export default async function getListings(params: IListingsParams) {
