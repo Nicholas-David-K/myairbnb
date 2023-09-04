@@ -26,12 +26,12 @@ export default async function getListings(params: IListingsParams) {
             startDate,
             endDate,
             locationValue,
-            isEntirePlace,
-            isPrivateRoom,
-            isSharedRoom,
             minPrice,
             maxPrice,
             category,
+            isEntirePlace,
+            isPrivateRoom,
+            isSharedRoom,
         } = params;
 
         let query: any = {};

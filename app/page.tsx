@@ -1,15 +1,11 @@
 import getListings, { IListingsParams } from './actions/getListings';
 
-import { AiFillHeart } from 'react-icons/ai';
 import ClientOnly from './components/ClientOnly';
 import Container from './components/Container';
 import EmptyState from './components/EmptyState';
-import Heading from './components/Heading';
-import Image from 'next/image';
 import ListingCard from './components/Listings/ListingCard';
 import { SafeListing } from './types';
 import getCurrentUser from './actions/getCurrentUser';
-import { useCallback } from 'react';
 
 interface HomeProps {
     searchParams: IListingsParams;
