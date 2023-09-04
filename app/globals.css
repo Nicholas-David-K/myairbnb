@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+  font-size: 14px;
+}
+
+.leaflet-bottom,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+
+
+.no-scroll::-webkit-scrollbar {
+  /* width: 2px; */
+  display: none;
+}
+
+.no-scroll::-webkit-scrollbar-thumb {
+  background-color: #f6657e;
+  border-radius: 4px;
+  display: none;
+}
