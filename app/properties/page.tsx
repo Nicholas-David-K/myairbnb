@@ -6,8 +6,6 @@ import getListings from '../actions/getListings';
 
 type Props = {};
 
-export const dynamic = 'force-dynamic';
-
 const PropertiesPage = async (props: Props) => {
     const currentUser = await getCurrentUser();
 
