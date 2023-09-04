@@ -77,7 +77,7 @@ const ListingClient = ({ listing, currentUser, reservations = [] }: Props) => {
             .finally(() => {
                 setIsLoading(false);
             });
-    }, [totalPrice, dateRange, listing?.id, currentUser, loginModal]);
+    }, [totalPrice, dateRange, listing?.id, currentUser, loginModal, router]);
 
     useEffect(() => {
         if (dateRange.startDate && dateRange.endDate) {
